@@ -1,0 +1,114 @@
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: flex-end; /* Align container to the right */
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    box-sizing: border-box;
+    background-image: url('file:///D:/Documents/password-strength-checker/passaword%20checker/cybersecurity-protects-digital-information-computer-systems-and-networks-data-privacy-secure-passwords-and-encryption-to-safeguard-and-ensure-privacy-business-technology-shield-safety-hacker-photo.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.6); /* Semi-transparent white background */
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 100%;
+    max-width: 400px;
+    margin-right: 700px; /* Add margin to the right */
+    height: 280px;
+    margin-top: 50px;
+    border: 5px solid #ffffff;
+}
+
+
+
+
+h1 {
+    color: #131111;
+    font-size: 29px;
+    margin-bottom: 20px;
+    text-align: center; /* Ensures the heading is centered */
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    margin: 20px 0;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 16px;
+    color: #333;
+    background-color: #fafafa;
+    transition: border-color 0.3s ease;
+}
+
+input:focus {
+    border-color: #bebebe;
+    outline: none;
+}
+
+button {
+    padding: 12px 25px;
+    background-color: #000000;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #554e4e;
+}
+
+#strength-msg {
+    font-size: 14px;
+    margin-top: 15px;
+    font-weight: bold;
+    color: #333;
+}
+
+@media (max-width: 480px) {
+    .container {
+        padding: 20px;
+        width: 90%;
+    }
+}
+
+#strength-msg {
+    font-size: 14px;
+    margin-top: 5px; /* Add space above */
+    font-weight: bold;
+    color: #333;
+    padding-top: -10px;
+}
+
+.missing-text {
+    color: red; /* Highlight missing criteria in red */
+    font-size: 12px;
+    margin-top: 5px; /* Add margin to create space between the button and the missing text */
+}
+
+label {
+    font-size: 14px;
+    color: #333;
+    cursor: pointer;
+    display: flex; 
+    align-items: center; /* Align checkbox and text vertically */
+    gap: 6px;
+    margin-top: -30px;   /* Optional, adds space between input and checkbox */
+}
+
+input[type="checkbox"] {
+    width: 16px;
+    height: 16px;
+    cursor:pointer   /* Adds some space between checkbox and label text */
+}
